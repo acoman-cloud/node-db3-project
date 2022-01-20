@@ -28,4 +28,4 @@ FROM "order" as o
 left join customer as c
     on o.customerid = c.id
 left join employee as e
-    on o.employeeid = e.id;
+    on o.employeeid = e.id
